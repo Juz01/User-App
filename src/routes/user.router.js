@@ -19,7 +19,7 @@ routerUser.route('/reset_password')
 
 
 routerUser.route('/verify/:code')
-.get(verifyUser)
+    .get(verifyUser)
 
 
 routerUser.route('/reset_password/:code')
